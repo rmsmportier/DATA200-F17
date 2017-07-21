@@ -1,5 +1,5 @@
 ---
-title       : DATA200 Homework 1
+title       : Homework 1
 description : What Is Data Science?
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
