@@ -197,7 +197,7 @@ test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad))
 ```
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:d3b6422247
-## Types of Computer Data
+## Types of Computer Data Take 2
 
 "987.356" in a computer is an example of which of the following data types?
 *** =instructions
