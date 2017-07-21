@@ -50,7 +50,7 @@ Put the following into correct lifecycle order
 
 msg_bad <- "That is not correct"
 msg_success <- "Correct!"
-test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad4))
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad))
 
 ```
 
@@ -108,8 +108,118 @@ Which of the following accurately describes the concept of "datafication"?
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
 msg_bad <- "That is not correct"
-msg_success <- "Correct!"
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad4))
+msg_success <- "Correct! 'Datafication' is a phrase coined in *The Rise of Big Data* that describes how our society has shifted in our cultural acceptance of technology.  No aspect of our lives is left untouched."
+test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 
+```
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:523fe644f1
+## *Big Data*
+
+Which of the following is not an example of *Big Data*?
+*** =instructions
+- Large number that requires scientific notation
+- Satellite images
+- Scientific measurements collected from a sensor at nanosecond intervals
+- Amazon website "click history" logs
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+msg_bad1 <- "Satellite images store significant quantities of complex data and are an example of *Big Data*."
+msg_bad2 <- "This would likely be an incredible quantity of data and precision and is an example of *Big Data*."
+msg_bad3 <- "Data is gathered and stored for every click for every user for every second.  This is an example of *Big Data*."
+msg_success <- "Correct! The level of precision is significant, but the quantity of information is not as this is only one data value."
+test_mc(correct = 1, feedback_msgs = c(msg_success, msg_bad1, msg_bad2, msg_bad3))
+
+```
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:8d9b4e0293
+## Computer Speak
+
+What mathematical *language* is foundational to digital computers?
+*** =instructions
+- Base 10 (decimal)
+- Base 16 (Hexadecimal)
+- Base 2 (Binary)
+- Base 8 (Octal)
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+msg_bad <- "Incorrect.  Computers can interpret this language, but not foundational."
+msg_success <- "Correct! At the heart of the computer is the binary language."
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad))
+
+```
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:22d1d455d6
+## Types of Computer Data
+
+987.356 in a computer is an example of which data type?
+*** =instructions
+- Boolean
+- Alphanumeric or Character
+- Numeric
+- Date/Time
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+msg_bad <- "That is not correct."
+msg_success <- "Correct! We know it is numeric because of the digits, decimal point, and no other punctuation."
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad))
+
+```
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:d3b6422247
+## Types of Computer Data
+
+"987.356" in a computer is an example of which of the following data types?
+*** =instructions
+- Boolean
+- Alphanumeric or Character
+- Numeric
+- Date/Time
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+msg_bad <- "That is not correct."
+msg_bad1 <- "That is not correct.  Notice the quotes around the numbers."
+msg_success <- "Correct! We know it is alphanumeric because even though it seems to be a number there are quotes around value."
+test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 
 ```
