@@ -131,7 +131,7 @@ Another example of the modulo operator: `9 %% 2` equals `1`.
 msg = "Do not remove the other arithmetic examples!"
 test_output_contains("2^5", incorrect_msg = "The exponentiation example is not correct. Write `2 ^ 5` on a new line.")
 test_output_contains("28 %% 6", incorrect_msg = "There seems to be an issue with the modulo example. Write `28 %% 6` on a new line.")
-success_msg("Great! You have completed Homework 1.")
+success_msg("Great! Let's try another exercise.")
 ```
 
 --- type:NormalExercise xp:100 skills:1 key:42e6c4c8a9
